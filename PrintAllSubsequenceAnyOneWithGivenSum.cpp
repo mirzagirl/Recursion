@@ -23,6 +23,9 @@ void sub(int  input[],int n,vector<int> &ans,int ind,int sum,int s){
 int main()
 {
    int a[]={1,2,3};
+   int bv;
+   cin>>bv;
+   cout<<bv<<" ";
    vector<int> ans;
    sub(a,3,ans,0,3,0);
 }
